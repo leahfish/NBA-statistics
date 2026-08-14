@@ -13,7 +13,7 @@
 
 ## Assignment 4: Probability (2026-07-26)
 
-- Normal vs. empirical, and why: none of the seven continuous variables (age, rebounds, assists, points, minutes, games played, salary) met the assumptions of a normal distribution — most were right-skewed, games played was left-skewed, and minutes per game was flatter than normal. Because of this, we used percentiles from the empirical distribution rather than the normal distribution to calculate probabilities (e.g., ~28% of players earn over $10M; the 90th percentile salary is ~$28.36M). This reinforced how misleading the average salary (~$9.3M) is compared to the median (~$3.6M).
+- Normal vs. empirical, and why: none of the seven continuous variables (age, rebounds, assists, points, minutes, games played, salary) met the assumptions of a normal distribution — most were right-skewed, games played was left-skewed, and minutes per game was flatter than normal. Because of this, we used percentiles from the empirical distribution rather than the normal distribution to calculate probabilities (e.g., \~28% of players earn over $10M; the 90th percentile salary is \~$28.36M). This reinforced how misleading the average salary (\~$9.3M) is compared to the median (\~$3.6M).
 
 ## Assignment 5: Inference (2026-08-07)
 
