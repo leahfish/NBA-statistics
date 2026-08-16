@@ -4,7 +4,7 @@ A statistics project examining how NBA player salaries relate to on-court perfor
 
 ## The dataset
 
-The dataset combines three public sources into one file: player contract/salary data from [Spotrac](https://www.spotrac.com/nba/rankings/player/_/year/2025/sort/cap_base), per-game performance stats from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2026_per_game.html), and international-roster status from [NBA.com](https://pr.nba.com/international-players-2025-26-nba-rosters). It covers 566 players and includes salary, age, position, games played, minutes per game, points per game, assists per game, rebounds per game, and birthplace (recoded to a US/international binary).
+The dataset combines three public sources into one file: player contract/salary data from [Spotrac](https://www.spotrac.com/nba/rankings/player/_/year/2025/sort/cap_base), per-game performance stats from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2026_per_game.html), and international-roster status from [NBA.com](https://pr.nba.com/international-players-2025-26-nba-rosters). It covers 566 players and includes salary (our main variable of interest), conference (East/West), age, position (Guard/Center/Forward), games played, minutes per game, points per game, assists per game, rebounds per game, and birthplace (recoded to a US/international binary).
 
 Our main variable of interest is **player salary**, which we analyzed both on its own and against performance metrics. The core research question: which performance statistics best explain (and predict) what an NBA player is paid, and how reliable is "average salary" as a benchmark given how skewed player pay actually is?
 
@@ -20,4 +20,4 @@ Our main variable of interest is **player salary**, which we analyzed both on it
 
 ## Team
 
-This analysis was completed as a team project (Group 5) for a graduate statistics course, with teammates Colin and Sean. This repository was assembled and is maintained by **Leah Fisher** as part of an individual course assignment to document and version the team's shared work.
+This analysis was completed as a team project (Group 5) for a graduate statistics course at Wake Forest University in the Business Analytics Program, with teammates Colin Foil and Sean Jones. This repository was assembled and is maintained by **Leah Fisher** as part of an individual course assignment to document and version the team's shared work.
